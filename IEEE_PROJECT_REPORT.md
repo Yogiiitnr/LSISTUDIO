@@ -6,7 +6,7 @@
 
 ## Abstract
 
-This report presents LSI Acoustic Studio PRO, a comprehensive web-based digital signal processing (DSP) platform built with Streamlit, NumPy, and SciPy. The application provides real-time audio convolution, multi-type filter design, acoustic venue simulation, and audio effects processing in an interactive interface. Deployed on Streamlit Community Cloud, the platform demonstrates zero runtime errors and full functionality across six interactive modules with 8 world venues and 10 pre-designed music filters. The system processes 16 kHz audio with real-time visualization of frequency domain analysis, impulse responses, and group delay characteristics.
+This report presents LSI Acoustic Studio PRO, a comprehensive web-based digital signal processing (DSP) platform built with Streamlit, NumPy, and SciPy. **The application is live and accessible at https://lsistudio-sands.streamlit.app** providing real-time audio convolution, multi-type filter design, acoustic venue simulation, and audio effects processing in an interactive interface. Deployed on Streamlit Community Cloud, the platform demonstrates zero runtime errors and full functionality across six interactive modules with 8 world venues and 10 pre-designed music filters. The system processes 16 kHz audio with real-time visualization of frequency domain analysis, impulse responses, and group delay characteristics.
 
 **Keywords:** Digital Signal Processing, Audio Convolution, Filter Design, Web Application, Real-time Visualization
 
@@ -289,12 +289,16 @@ User Sessions: Unlimited (cloud-hosted)
 
 ## 6. Deployment and Accessibility
 
-### 6.1 Streamlit Community Cloud
+### 6.1 Streamlit Community Cloud - Live Deployment
+
+**🌐 LIVE APPLICATION (ACTIVE & OPERATIONAL):**
+- **Website**: https://lsistudio-sands.streamlit.app
+- **Access**: Open in any web browser - no installation required
+- **Status**: ✅ Production Ready
 
 **Deployment Details:**
 - **Platform**: Streamlit Community Cloud (free tier)
 - **Repository**: GitHub (`Yogiiitnr/LSISTUDIO`, branch `main`)
-- **Live URL**: https://lsistudio-sands.streamlit.app
 - **Deployment Time**: Automatic on each GitHub push
 - **Build Time**: ~2-3 minutes per deployment
 
@@ -401,21 +405,28 @@ LSI Acoustic Studio PRO bridges the gap between professional DSP tools and user 
 
 ## Appendix: Project Links
 
+**LIVE WEBSITE (PRODUCTION - FULLY OPERATIONAL):**
+https://lsistudio-sands.streamlit.app
+
 **GitHub Repository:**
 https://github.com/Yogiiitnr/LSISTUDIO
 
-**Live Deployment (Streamlit Cloud):**
-https://lsistudio-sands.streamlit.app
-
 **Main Application File:**
 - `app.py` (323 lines, fully functional)
+- Available at: https://github.com/Yogiiitnr/LSISTUDIO/blob/main/app.py
+
+**Full Report (in repository):**
+- PDF: https://github.com/Yogiiitnr/LSISTUDIO/raw/main/IEEE_PROJECT_REPORT.pdf
+- Markdown: https://github.com/Yogiiitnr/LSISTUDIO/blob/main/IEEE_PROJECT_REPORT.md
 
 **Dependencies:**
 - See `requirements.txt` for complete list
+- Automatically installed during deployment
 
-**Configuration:**
+**Configuration Files:**
 - `.streamlit/config.toml` - Streamlit theme and server settings
 - `.gitignore` - Git ignore patterns
+- `README.md` - Complete project documentation
 
 ---
 
