@@ -1,0 +1,12 @@
+{
+  "buildCommand": "pip install -r requirements.txt",
+  "devCommand": "streamlit run app.py --server.port 3000",
+  "installCommand": "pip install -r requirements.txt",
+  "framework": "other",
+  "outputDirectory": ".",
+  "public": true,
+  "env": {
+    "STREAMLIT_SERVER_HEADLESS": "true",
+    "STREAMLIT_SERVER_PORT": "8501"
+  }
+}
