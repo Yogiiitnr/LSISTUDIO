@@ -1,0 +1,127 @@
+/* IEEE Two-Column Report Style */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10pt;
+    line-height: 1.4;
+    color: #333;
+    background: white;
+    max-width: 8.5in;
+    margin: 0.5in auto;
+    padding: 0.5in;
+}
+
+h1 {
+    font-size: 18pt;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0.3in;
+}
+
+h2 {
+    font-size: 12pt;
+    font-weight: bold;
+    margin-top: 0.2in;
+    margin-bottom: 0.1in;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.05in;
+}
+
+h3 {
+    font-size: 11pt;
+    font-weight: bold;
+    margin-top: 0.15in;
+    margin-bottom: 0.1in;
+}
+
+p {
+    margin: 0.1in 0;
+    text-align: justify;
+}
+
+ul, ol {
+    margin: 0.1in 0;
+    padding-left: 0.3in;
+}
+
+li {
+    margin: 0.05in 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0.2in 0;
+    font-size: 9pt;
+}
+
+th, td {
+    border: 1px solid #999;
+    padding: 0.08in;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+code {
+    font-family: 'Courier New', monospace;
+    font-size: 9pt;
+    background-color: #f9f9f9;
+    padding: 0.02in 0.05in;
+    border-radius: 3px;
+}
+
+pre {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 0.1in;
+    font-size: 8pt;
+    overflow-x: auto;
+    font-family: 'Courier New', monospace;
+    margin: 0.1in 0;
+}
+
+em {
+    font-style: italic;
+}
+
+strong {
+    font-weight: bold;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* References section */
+.references {
+    margin-top: 0.3in;
+}
+
+/* Abstract */
+.abstract {
+    background-color: #f9f9f9;
+    padding: 0.1in;
+    border-left: 3px solid #666;
+    margin: 0.2in 0;
+    font-size: 9pt;
+}
+
+/* Print styles */
+@media print {
+    body {
+        margin: 0.5in;
+        padding: 0;
+    }
+    
+    page-break-inside: avoid;
+}
